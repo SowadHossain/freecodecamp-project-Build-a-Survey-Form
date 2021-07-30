@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+.center{
+  text-align:center;
+}
+input ,select, textarea{
+  background: #CCFFBB;
+}
+
+body{
+  font-family: 'poppins';
+  line-height: 2.4;
+  background: #CCFFBB;
+  width: 400px;
+  margin: auto;
+  padding : 2.5rem 1rem;
+ 
+}
+
+form{
+  background: #005A04;
+  padding: 2.5rem 2.5rem;
+  color: #CCFFBB;
+  border-radius: 2rem;
+  width: 25rem;
+  margin: auto;
+  /*-webkit-box-shadow: 0 0 10px black;
+        box-shadow: 0 0 20px black;
+ */
+  box-shadow: 0 0 40px 15px #005502;
+}
+
+#submit{
+  background: red;
+  width: 50%;
+  height: 40px;
+  border-radius: 1rem;
+  cursor: pointer;
+  box-shadow: 0 0 10px 1px red; /* with blur shadow*/
+}

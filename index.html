@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/CSS" href="CSS/style.css">
+    <title>Survay form</title>
+</head>
+
+<header>
+    <h1 id="title" class="center">
+        RGC Survay Form
+    </h1>
+</header>
+
+<body>
+
+    <p id="description" class="center">
+        General Student Survay
+    </p>
+    <form id="survey-form">
+        <label id="name-label" for="name">Name</label>
+        <input id="name" type="text" name="Name" placeholder="Elon Musk" required>
+        </inpur>
+        <br>
+        <label id="email-label" for="email">Email</label>
+        <input id="email" type="email" name="Email" placeholder="example@gmail.com" required>
+        </input>
+        <br>
+        <label id="number-label" for="number">Age</label>
+        <input id="number" type="number" name="number" min='18' ; max='99' ; placeholder="69" required>
+        </input>
+        <br>
+        <label id="ocupation:" for="dropdown">Occupation</label>
+        <select id="dropdown">
+            <option value="Teacher">Teacher</option>
+            <option value="Business">Business</option>
+            <option value="Police">Police</option>
+            <option value="Driver">Driver</option>
+            <option value="Broke">I don't work.I'm broke AF</option>
+            <option value="Other">Other</option>
+        </select>
+        <br>
+        <label for="relegion" id="relegion-selection">Relegion:<br></label>
+        <input id="relegion" type="radio" name='relegion' value='Islam'>
+        <label for="relegion">Islam</label>
+        <input id="relegion" type="radio" name='relegion' value='Hindu'>
+        <label for="relegion">Hindu</label>
+        <input id="relegion" type="radio" name='relegion' value='Christian'>
+        <label for="relegion">Christian</label>
+        <input id="relegion" type="radio" name='relegion' value='Other'>
+        <label for="relegion">Other</label>
+        <br>
+        <label for="Education" id='checkbox-label'>Education <br></label>
+        <input id="Education" type="checkbox" value='SSC'>
+        <label for="Education">SSC</label>
+        <input id="Education" type="checkbox" value='HSC'>
+        <label for="Education">HSC</label>
+        <input id="Education" type="checkbox" value='PhD'>
+        <label for="Education">PhD</label>
+        <br>
+        <label for="Comment">Comments: <br></label>
+        <textarea id="Comment" type="text" rows="5" cols="35"></textarea>
+
+        <br>
+        <button id="submit">submit</button>
+
+    </form>
+    <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+</body>
+
+</html>
